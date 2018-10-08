@@ -13,7 +13,8 @@ PORT = 3000;
 var axios = require("axios"); //Promise based HTTP client for the browser and node.js
 var cheerio = require("cheerio");
 
-const website = "https://news.google.com/?hl=en-CA&gl=CA&ceid=CA:en";
+ const website = "https://news.google.com/?hl=en-CA&gl=CA&ceid=CA:en";
+// const website = "https://www.nytimes.com"
 
 // Using logger/Morgan instead of express 
 app.use(logger("dev")); 
