@@ -1,4 +1,4 @@
-var mongoose = require("mongoose"); 
+const mongoose = require("mongoose"); 
 const Schema = mongoose.Schema;
 //const ObjectId = Schema.ObjectId;
 
@@ -8,7 +8,10 @@ const ArticleSchema = new Schema({
     summary: String,
     img: String,
     comments:{},
+    
 })
 
-var Article = mongoose.model("Article",ArticleSchema);
+
+// var modelname = mongoose.model("model name", schemaname)
+var Article = mongoose.model("Article",ArticleSchema); 
 module.exports = Article;

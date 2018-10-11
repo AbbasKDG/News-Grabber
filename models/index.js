@@ -1,4 +1,4 @@
 module.exports = {
-    Article: require("./Article"), //keyvaluepairs
+    Article: require("./Article"),
     Note: require("./Note")
-} ;
+};
